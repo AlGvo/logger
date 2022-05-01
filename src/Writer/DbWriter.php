@@ -7,7 +7,8 @@ use SQLite3;
 class DbWriter implements WriterInterface
 {
 
-    const DB_PATH = __DIR__.'/../../logger.sqlite';
+    const DB_PATH = __DIR__.'/../../../../../logger.sqlite';
+
     private SQLite3 $db;
 
     public function __construct()
