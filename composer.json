@@ -1,0 +1,24 @@
+{
+  "name": "algvo/logger",
+  "description": "Logger.",
+  "keywords": ["logger"],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alexander Gvozdev",
+      "email": "dp161185gav@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "psr/log": "^1.1",
+    "ext-json": "*",
+    "ext-sqlite3": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Logger\\": "src/"
+    }
+  }
+}
