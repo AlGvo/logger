@@ -9,7 +9,6 @@ class Logger extends AbstractLogger
 {
     /** @var $writers WriterInterface[] */
     private array $writers;
-//    private WriterInterface $writer;
 
     public function __construct(array $writers)
     {
@@ -26,7 +25,6 @@ class Logger extends AbstractLogger
         if ($context != []) {
             $data['context'] = $context;
         }
- //       $this->writer->write($data);
             foreach ($this->writers as $writer) {
                 $writer->write($data);
             }
