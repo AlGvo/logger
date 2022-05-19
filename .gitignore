@@ -1,0 +1,9 @@
+vendor
+.phpdoc
+phpDocumentor.phar
+composer.lock
+index.php
+logger.sqlite
+src/Test
+src/log
+
